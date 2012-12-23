@@ -1,0 +1,41 @@
+---
+abstract: 'A Task module for DWIM Perl L<http://dwimperl.com/>'
+author:
+  - 'Gabor Szabo <szabgab@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-DWIM-XML
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  XML::Atom: 0.41
+  XML::Dumper: 0.81
+  XML::Feed: 0.50
+  XML::Generator::PerlData: 0.91
+  XML::LibXML: 2.0014
+  XML::LibXSLT: 1.75
+  XML::NamespaceSupport: 1.11
+  XML::Parser: 2.41
+  XML::RSS: 1.49
+  XML::SAX: 0.99
+  XML::SAX::Base: 1.08
+  XML::SAX::Writer: 0.53
+  XML::Simple: 2.18
+  XML::Writer: 0.615
+  XML::XPath: 1.13
+  perl: 5.008
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/dwimperl/Task-DWIM
+version: 0.06
