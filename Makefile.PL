@@ -4,8 +4,9 @@ use Task::DWIM::XML;
 
 name           'Task-DWIM-XML';
 all_from       'lib/Task/DWIM/XML.pm';
-#build_requires 'Test::More'                => '0.42';
-#build_requires 'File::Spec'                => '0.80';
+
+build_requires 'Test::More'                => '0.42';
+build_requires 'Perl::Version'             => '1.011';
 
 requires perl  => 5.008;
 
